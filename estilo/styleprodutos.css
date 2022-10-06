@@ -29,6 +29,7 @@ body {
 
 .produtos h4{
     color: blueviolet;
+    font-size: 15px;
 }
 .produtos1 {
     display: flex;
@@ -125,9 +126,9 @@ button {
     background: transparent;
     border: solid 1px purple;
     padding: 10px;
-    border-radius: 35px;
+    border-radius: 10px;
     font-size: 40px;
-    width: 300px;
+    width: 150px;
     cursor: pointer;
 
 }
@@ -169,5 +170,6 @@ button:hover {
     margin-top: 10px;
 }
 
-
-
+a{
+    color: black;
+}
