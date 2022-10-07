@@ -8,7 +8,6 @@
     text-decoration: none;
     list-style: none;
     font-family: "poppins", sans-serif;
-   
 }
 
 body {
@@ -16,27 +15,35 @@ body {
 }
 
 .background {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+
+
 }
 
-.background img {
-   align-content: flex-start;
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px 0 1 ;
 }
+
+
 
 .cabeçalho-link {
     display: flex;
     gap: 3rem;
     font-weight: 300;
     cursor: pointer;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    padding-top: 5px 0 1 ;
-    background-color: white;
-}
 
+}
 
 .cabeçalho-link a {
     color: black;
@@ -56,62 +63,6 @@ body {
     height: 100px;
 
 }
-main{
-    height: 550px;
-}
-.produtos {
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    padding: 50px;
-    height: 550px;
-}
-
-
-.produtos h4{
-    color: blueviolet;
-    font-size: 10px;
-}
-.produtos1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-    
-    
-}
-.produtos2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-    
-}
-.item{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 40px;
-} 
-
-
-.produtos1 img {
-    width: 140px;
-    height: 185px;
-
-    
-}
-.produtos2 img {
-    width: 140px;
-    height: 185px;
-}
-
-
 #logofooter {
     margin-left: 10px;
     width: 150px;
@@ -143,11 +94,11 @@ button {
     background: transparent;
     border: solid 1px purple;
     padding: 1px;
-    border-radius: 10px;
-    font-size: 20px;
+    border-radius: 35px;
+    font-size: 30px;
     width: 150px;
     cursor: pointer;
-
+    
 }
 
 button:hover {
@@ -162,7 +113,21 @@ button:hover {
     flex-direction: row;
 
 }
+.imagem_principal{
+    padding-left: 40px ;
+}
+.imagem_principal img{
+    width: auto;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 0.5em 0.5em 0.5em rgba(128, 0, 128, 0.466);;
+    
+}
 
+.text h4{
+color: white;
+text-align: center;
+}
 .text h3 {
     color: white;
     font-size: 40px;
@@ -174,6 +139,11 @@ button:hover {
     margin-top: 5px;
 }
 
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: left
+}
 .text span {
     color: rgb(199, 62, 199);
     text-shadow: 0.1em 0.1em 0.1em black;
@@ -189,4 +159,18 @@ button:hover {
 
 a{
     color: black;
+}
+
+.countainer-textfalecomigo{
+    display: flex;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-bottom: 50px;
+    padding-right: 300px;
+    height: 550px;
 }

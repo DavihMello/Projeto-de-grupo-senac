@@ -57,6 +57,7 @@ body {
 
 }
 
+
 .produtos {
     background-color: black;
     background-size: cover;
@@ -67,6 +68,7 @@ body {
     justify-content: space-around;
     text-align: center;
     padding: 20px;
+    height: 550px;
 }
 
 
