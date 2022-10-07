@@ -107,12 +107,12 @@ button:hover {
     transition: 0.5s;
 }
 
-.countainer-text {
+/* .countainer-text {
     padding: 80px 0 0 200px;
     display: flex;
     flex-direction: row;
 
-}
+} */
 .imagem_principal{
     padding-left: 40px ;
 }
